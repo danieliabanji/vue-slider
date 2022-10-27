@@ -51,7 +51,8 @@
 }
 
 .thumb.active {
-    border: 2px solid #ccc;
+    outline: 3px solid white;
+    outline-offset: -.2rem;
     opacity: 1;
 }
 

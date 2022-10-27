@@ -53,7 +53,7 @@ const app = createApp({
         },
         stopAutoScroll(){
          clearInterval(this.autoscroll);
-        //  this.autoScroll = null;  
+         this.autoscroll = null;  
         },
         showThisSlide (slideClicked){
             this.activeIndex = slideClicked;
